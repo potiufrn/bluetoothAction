@@ -1,4 +1,4 @@
-BASEDIR = .
+BASEDIR = ../..
 INSTALLDIR = ${BASEDIR}
 
 CC = g++
@@ -6,7 +6,7 @@ CXX = g++
 CPPFLAGS = -Wall -O2 -I ${BASEDIR}/include
 CFLAGS =
 LDFLAGS = -O2 -L ${BASEDIR}/lib
-LDLIBS = -lbluetooth	-fopenmp
+LDLIBS = -lbluetooth
 
 all: libbluetoothAction.a
 
